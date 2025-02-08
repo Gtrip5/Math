@@ -1,3 +1,8 @@
+import sympy as sp
+import numpy as np
+import matplotlib.pyplot as mp
+import math
+
 def eval_func(r, func, symbol):
     y = [func.subs(symbol, xx) for xx in r]
     return y
